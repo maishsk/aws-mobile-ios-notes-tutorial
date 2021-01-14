@@ -302,13 +302,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LKGT3A27Z;
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.mobile.samples.MyNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maishsk.mobile.samples.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,12 +320,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development: maishsk@gmail.com (328492R225)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 5LKGT3A27Z;
 				INFOPLIST_FILE = MyNotes/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amazonaws.mobile.samples.MyNotes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maishsk.mobile.samples.MyNotes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -340,7 +343,7 @@
 				FBA77AF821307BC2001B5F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		FBA77AF921307BC2001B5F22 /* Build configuration list for PBXNativeTarget "MyNotes" */ = {
 			isa = XCConfigurationList;
@@ -349,7 +352,7 @@
 				FBA77AFB21307BC2001B5F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
